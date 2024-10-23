@@ -25,8 +25,14 @@ async function quantidadeUsuariosPorRede() {
             Text: 'Redes sociais com mais usuários',
             x: 0,
             font: {
-                color
+                color: getCSS('--primary-color'),
+                size:30,
+                font: getCSS('--font')
             }
+        },
+        xaxis: {
+            tikfont: tikConfig,
+            title
         }
 
     }
